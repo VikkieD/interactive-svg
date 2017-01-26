@@ -1,19 +1,19 @@
 #left-ear {
-  transform-origin: 100px 82px;
+  transform-origin: 120px 140px;
   transition: all .5s linear;
 }
 
 #right-ear {
-  transform-origin: 100px 82px;
+  transform-origin: 120px 140px;
   transition: all .5s linear;
 }
 
 #bear:hover #left-ear {
-  transform: rotate(100deg);
+  transform: rotate(10deg);
 }
 
 #bear:hover #right-ear {
-  transform: rotate(100deg);
+  transform: rotate(-10deg);
 }
 
 #left-eye {
@@ -23,11 +23,15 @@
 @keyframes go {
 
   0% {
-    transform: translate(15px);
+    transform: translate(-15px);
+  }
+
+  50% {
+    transform: translate(0px);
   }
 
   100% {
-    transform: translate(30px);
+    transform: translate(-15px);
   }
 
 }
@@ -39,11 +43,15 @@
 @keyframes go2 {
 
   0% {
-    transform: translate(15px);
+    transform: translate(-15px);
+  }
+
+  50% {
+    transform: translate(0px);
   }
 
   100% {
-    transform: translate(30px);
+    transform: translate(-15px);
   }
 
 }
