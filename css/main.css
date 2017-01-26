@@ -20,7 +20,17 @@
   animation: go 3s linear infinite;
 }
 
+@keyframes go {
 
+  0% {
+    transform: translate(15px);
+  }
+
+  100% {
+    transform: translate(30px);
+  }
+
+}
 
 #right-eye {
   animation: go2 3s linear infinite;
